@@ -87,6 +87,10 @@
     <feature name="CDVWKWebViewEngine">
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
+    <feature name="CanvasCamera">
+        <param name="ios-package" value="CanvasCamera" />
+        <param name="onload" value="true" />
+    </feature>
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
@@ -105,4 +109,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
 </widget>
+
